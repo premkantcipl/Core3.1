@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Services\\Elements.APNG.Serverless.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\Elements.APNG.Serverless.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\Elements.APNG.Serverless.Data.EF.csproj",
+        "projectName": "Elements.APNG.Serverless.Data.EF",
+        "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\Elements.APNG.Serverless.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\premkant.prem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\premkant.prem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj": {
+                "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.19.0, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj",
+        "projectName": "Elements.APNG.Serverless.Models",
+        "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj",
+        "packagesPath": "C:\\Users\\premkant.prem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\premkant.prem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Services\\Elements.APNG.Serverless.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Services\\Elements.APNG.Serverless.Services.csproj",
+        "projectName": "Elements.APNG.Serverless.Services",
+        "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Services\\Elements.APNG.Serverless.Services.csproj",
+        "packagesPath": "C:\\Users\\premkant.prem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\premkant.prem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\Elements.APNG.Serverless.Data.EF.csproj": {
+                "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Data.EF\\Elements.APNG.Serverless.Data.EF.csproj"
+              },
+              "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj": {
+                "projectPath": "C:\\Users\\premkant.prem\\Desktop\\FUNCTION Element\\Core\\Elements.APNG.Serverless\\Elements.APNG.Serverless.Models\\Elements.APNG.Serverless.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

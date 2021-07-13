@@ -25,7 +25,7 @@ namespace Elements.APNG.Serverless.Function
             }
             else
             {
-                log.LogInformation($"Payroll Reminder Service is turned off!");
+                log.LogInformation($"Payroll Reminder Service is turned off! ");
             }
 
         }
